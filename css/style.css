@@ -20,7 +20,7 @@ h6 {
 .head-hero {
     background: no-repeat center center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/img/hero.png");
+        url("../img/hero.png");
     background-size: cover;
     height: auto;
     color: #fff;
@@ -145,7 +145,7 @@ img.img-fluid.img-abs {
 
 /* client start here  */
 .client {
-    background: url(/img/rc-footer-graphics-vector\ 1.svg);
+    background: url(../img/rc-footer-graphics-vector\ 1.svg);
     background-image: -moz-linear-gradient(0deg, #000 0%, #000 100%);
     background-image: -webkit-linear-gradient(0deg, #000 0%, #000 100%);
     background-image: -ms-linear-gradient(0deg, #000 0%, #000 100%);
@@ -155,7 +155,7 @@ img.img-fluid.img-abs {
 }
 
 .fleets-content {
-    background: url(/img/rc-footer-graphics-vector\ 2.svg) no-repeat center center;
+    background: url(../img/rc-footer-graphics-vector\ 2.svg) no-repeat center center;
     background-size: contain;
 }
 
@@ -166,7 +166,7 @@ img.img-fluid.img-abs {
 
 /* connect start here   */
 .connect-content {
-    background: url(/img/Slice\ 2.png) no-repeat center center;
+    background: url(../img/Slice\ 2.png) no-repeat center center;
     background-size: contain;
     padding: 60px 0;
 }
