@@ -1,0 +1,209 @@
+/* common css  */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+}
+
+.head-hero {
+    background: no-repeat center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/img/If-you-are-the-passenger-in-a-car-accident-can-you-sue-for-injuries-1\ 1.png");
+    background-size: cover;
+    height: auto;
+    color: #fff;
+    background-color: 0% 0% 0% 0.8;
+}
+
+/* header start here  */
+header button {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+    font-size: 16px !important;
+}
+
+.btn-book {
+    border: 1px solid #0fc500;
+    border-radius: 20px;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    background-color: #fff !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.hero-form {
+    background-color: rgb(41 38 38 / 75%);
+    margin: 50px 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section.trust {
+    padding: 60px 0 30px;
+}
+
+button.n-btn {
+    background: #0fc500;
+    border: 1px solid #0fc500;
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.form-group input {
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: auto;
+    width: 100%;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-tabs .nav-link.active {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+/* feature start here  */
+section.features {
+    padding: 60px 0;
+}
+
+.features-box {
+    transition: all 0.3s ease-in-out;
+}
+
+.features-box:hover {
+    border-bottom: 1px solid #0376f9;
+}
+
+/* why start here  */
+section.why {
+    background: #f8f8f8;
+
+    padding: 60px 0;
+}
+
+.why-box {
+    text-align: left;
+}
+
+.why img {
+    border-radius: 10px;
+}
+
+.adjust {
+    position: relative;
+}
+
+img.img-fluid.img-abs {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+/* fleets start here   */
+.fleets {
+    background: #0376f9;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.slick-slide {
+    padding: 0 20px;
+}
+
+/* client start here  */
+.client {
+    background: url(/img/rc-footer-graphics-vector\ 1.svg);
+    background-image: -moz-linear-gradient(0deg, #000 0%, #000 100%);
+    background-image: -webkit-linear-gradient(0deg, #000 0%, #000 100%);
+    background-image: -ms-linear-gradient(0deg, #000 0%, #000 100%);
+
+    padding: 60px 0;
+    color: #fff;
+}
+
+.fleets-content {
+    background: url(/img/rc-footer-graphics-vector\ 2.svg) no-repeat center center;
+    background-size: contain;
+}
+
+.c-slider.slick-initialized.slick-slider img {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* connect start here   */
+.connect-content {
+    background: url(/img/Slice\ 2.png) no-repeat center center;
+    background-size: contain;
+    padding: 60px 0;
+}
+
+a.btn-now {
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #0fc500;
+    text-decoration: none;
+    border: 1px solid #0fc500;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* vector start here  */
+.vector {
+    padding-top: 30px;
+}
+
+/* footer start here   */
+footer {
+    background: #212529;
+    text-align: left;
+    color: #fff;
+    padding: 60px 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+.copy {
+    background: #000;
+}
+
+.copy p {
+    margin: 1rem;
+}
